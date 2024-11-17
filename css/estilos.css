@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+/* TIPOS DE LETRA */
 .menu {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -23,13 +24,60 @@ body {
     font-size: 16px;
 }
 
-
 .titulo2 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 32px;
 }
 
+.texto-imagen h1 {
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/* BOTONES */
+.boton-reservar {
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    background-color: #A3A656;
+    font-weight: bold;
+    height: 50px;
+    width: 155px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.boton-reservar:hover {
+    background-color: #384001;
+}
+
+.boton-condiciones {
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    background-color: #A3A656;
+    font-weight: bold;
+    height: 60px;
+    width: 300px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.boton-condiciones:hover {
+    background-color: #384001;
+}
+
+/* Franja superior */
 .header {
     height: 70px;
     background-color: #A3A656;
@@ -62,7 +110,6 @@ body {
 .logos {
     display: flex;
     align-items: center;
-
 }
 
 .cuenta {
@@ -86,6 +133,7 @@ body {
     padding: 0px 10px;
 }
 
+/* Imagen SPA */
 .main {
     width: 100%;
     height: 100%;
@@ -94,7 +142,7 @@ body {
 }
 
 .imgSPA {
-    position: relative;/* Necesario para posicionar el texto dentro del contenedor */
+    position: relative;
     width: 100%;
     height: auto;
 }
@@ -106,21 +154,13 @@ body {
 }
 
 .texto-imagen {
-    position: absolute;/* Posiciona el texto encima de la imagen */
-    top: 10%; /* Centrado verticalmente */
-    left: 10%;/* Centrado horizontalmente */
+    position: absolute;
+    top: 10%; 
+    left: 10%;
     text-align: left;
 }
 
-
-.texto-imagen h1 {
-    font-family: 'Romanesco', cursive;
-    font-size: 96px;
-    font-weight: normal;
-    margin-bottom: 10px;
-}
-
-
+/* Franja del medio */
 .citas {
     background-color: #F2F6F6;
     height: 100px;
@@ -158,6 +198,13 @@ body {
     padding: 0px 15px;
 }
 
+/* Masajes */
+.masajes {
+    padding: 100px 0 75px 0;
+    display: flex;
+    justify-content: center;
+}
+
 .titulosMasajes {
     background-color: #A3A656;
     border-radius: 15px 15px 0px 0px;
@@ -167,24 +214,6 @@ body {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-}
-
-.masajes {
-    padding: 100px 0 75px 0;
-    display: flex;
-    justify-content: center;
-}
-
-.pies {
-    margin: 0px 134px 0px 100px;
-    height: 100%;
-    width: 700px;
-}
-
-.pies img {
-    display: block;
-    width: 100%;
-    height: 100%;
 }
 
 .informacion {
@@ -199,28 +228,21 @@ body {
     padding: 0px 0px 0px 13px;
 }
 
-.boton-reservar {
-    display: flex;
-    align-items: center;
-    border-radius: 35px;
-    background-color: #A3A656;
-    font-weight: bold;
-    height: 50px;
-    width: 155px;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    color: #FFFFFF;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.boton-reservar:hover {
-    background-color: #384001;
-}
-
 .descripcion {
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.pies {
+    margin: 0px 134px 0px 100px;
+    height: 100%;
+    width: 700px;
+}
+
+.pies img {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .relajante {
@@ -247,10 +269,10 @@ body {
     height: 100%;
 }
 
+/* Planes */
 .planes {
     background-color: #F2F6F6;
     height: 770px;
-
 }
 
 .tituloSocio {
@@ -264,8 +286,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
-
 
 .titulosPlanes {
     display: flex;
@@ -277,7 +299,6 @@ body {
     margin: 0px 100px;
     text-align: center;
 }
-
 
 .contenedor-planes {
     display: inline-block;
@@ -292,26 +313,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-}
-
-.boton-condiciones {
-    display: flex;
-    align-items: center;
-    border-radius: 35px;
-    background-color: #A3A656;
-    font-weight: bold;
-    height: 60px;
-    width: 300px;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    color: #FFFFFF;
-    justify-content: center;
-    margin-bottom: 25px;
-    cursor: pointer;
-}
-
-.boton-condiciones:hover {
-    background-color: #384001;
 }
 
 .infoPlanes {
@@ -345,10 +346,10 @@ body {
 }
 
 .infoPlanesPremium ul li {
-    padding: 10px 0px;
+    padding: 7px 0px;
 }
 
-
+/* Franja inferior */ 
 .final {
     background-color: #384001;
     height: 97px;
@@ -371,18 +372,13 @@ body {
 
 .infoFinal ul li {
     display: inline;
-    padding: 0px 90px 0px 0px;
-
+    padding: 0px 70px 0px 0px;
 }
 
 .infoFinal ul li a {
     text-decoration: none;
     color: #A3A656;
 }
-
-
-
-
 
 .siguenos span {
     color: #A3A656;
